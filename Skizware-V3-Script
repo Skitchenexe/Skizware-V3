@@ -1,5 +1,7 @@
 --//Skizware V3 -- Made by Skiz#3661
 
+--//loadstring(game:HttpGet("https://raw.githubusercontent.com/Skitchenexe/Skizware-V3/main/Skizware-V3-Script", true))()
+
 local SkizwareV3 = Instance.new("ScreenGui")
 local Back = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
