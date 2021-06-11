@@ -908,7 +908,13 @@ local function MFHY_fake_script() -- Main.LocalScript
 		loadstring(game:HttpGet('https://projectanimatescript.weebly.com/uploads/4/2/3/6/42367003/output.lua'))()
 	end)
 	sangware.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGetAsync("https://sangwarev2net.netlify.app/"))()
+		loadstring(game:HttpGet(('https://sangwaretest.netlify.app/'),true))()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "Key";
+		Text = "The current key is "sangwareontop";
+		Duration = 5;
+		Button1 = "Ok;
+		})
 	end)
 	view.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/dva01xpE", true))()
