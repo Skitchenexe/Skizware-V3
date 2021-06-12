@@ -82,6 +82,15 @@ local Main_3 = Instance.new("ScrollingFrame")
 local Gui = Instance.new("TextLabel")
 local Scripting = Instance.new("TextLabel")
 local Note = Instance.new("TextLabel")
+local StartFrame = Instance.new("Frame")
+local Start = Instance.new("Frame")
+local UICorner_35 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local Launch = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
+local NoThanks = Instance.new("TextButton")
+local UICorner_37 = Instance.new("UICorner")
+local Load = Instance.new("TextLabel")
 local shadowHolder = Instance.new("Frame")
 local umbraShadow = Instance.new("ImageLabel")
 local penumbraShadow = Instance.new("ImageLabel")
@@ -90,14 +99,14 @@ local ambientShadow = Instance.new("ImageLabel")
 --Properties:
 
 SkizwareV3.Name = "SkizwareV3"
-SkizwareV3.Parent = game.CoreGui
+SkizwareV3.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 SkizwareV3.ResetOnSpawn = false
 
 Back.Name = "Back"
 Back.Parent = SkizwareV3
+Back.AnchorPoint = Vector2.new(0.5, 0.5)
 Back.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-Back.AnchorPoint = Vector2.new(.5,.5)
-Back.Position = UDim2.new(.500,0,.500,0)
+Back.Position = UDim2.new(0.5, 0, 0.5, 0)
 Back.Size = UDim2.new(0, 294, 0, 219)
 
 UICorner.Parent = Back
@@ -120,9 +129,7 @@ Main.BackgroundTransparency = 1.000
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
 Main.Size = UDim2.new(0, 158, 0, 185)
-Main.BottomImage = "rbxassetid://6888586040"
-Main.MidImage = "rbxassetid://6888586040"
-Main.TopImage = "rbxassetid://6888586040"
+Main.ScrollBarThickness = 7
 
 Mizt.Name = "Mizt"
 Mizt.Parent = Main
@@ -395,9 +402,7 @@ Main_2.BackgroundTransparency = 1.000
 Main_2.BorderSizePixel = 0
 Main_2.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
 Main_2.Size = UDim2.new(0, 158, 0, 185)
-Main_2.BottomImage = "rbxassetid://6888586040"
-Main_2.MidImage = "rbxassetid://6888586040"
-Main_2.TopImage = "rbxassetid://6888586040"
+Main_2.ScrollBarThickness = 7
 
 Avatar.Name = "Avatar"
 Avatar.Parent = Main_2
@@ -565,9 +570,7 @@ Main_3.BackgroundTransparency = 1.000
 Main_3.BorderSizePixel = 0
 Main_3.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
 Main_3.Size = UDim2.new(0, 158, 0, 185)
-Main_3.BottomImage = "rbxassetid://6888586040"
-Main_3.MidImage = "rbxassetid://6888586040"
-Main_3.TopImage = "rbxassetid://6888586040"
+Main_3.ScrollBarThickness = 7
 
 Gui.Name = "Gui"
 Gui.Parent = Main_3
@@ -603,20 +606,94 @@ Note.TextColor3 = Color3.fromRGB(0, 0, 0)
 Note.TextSize = 14.000
 Note.TextWrapped = true
 
+StartFrame.Name = "StartFrame"
+StartFrame.Parent = Back
+StartFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StartFrame.BackgroundTransparency = 1.000
+StartFrame.BorderSizePixel = 0
+StartFrame.ClipsDescendants = true
+StartFrame.Position = UDim2.new(0.0374149643, 0, 0.0365296789, 0)
+StartFrame.Size = UDim2.new(0, 273, 0, 201)
+
+Start.Name = "Start"
+Start.Parent = StartFrame
+Start.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Start.Position = UDim2.new(-0.00912151393, 0, -0.00129585841, 0)
+Start.Size = UDim2.new(0, 275, 0, 205)
+Start.ZIndex = 3
+
+UICorner_35.Parent = Start
+
+TextLabel.Parent = Start
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0797101483, 0, 0.0792079195, 0)
+TextLabel.Size = UDim2.new(0, 236, 0, 43)
+TextLabel.ZIndex = 4
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Do you want to execute Skizware V3?"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Launch.Name = "Launch"
+Launch.Parent = Start
+Launch.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Launch.Position = UDim2.new(0.0362318866, 0, 0.752475262, 0)
+Launch.Size = UDim2.new(0, 91, 0, 23)
+Launch.ZIndex = 4
+Launch.AutoButtonColor = false
+Launch.Font = Enum.Font.GothamSemibold
+Launch.Text = "Launch"
+Launch.TextColor3 = Color3.fromRGB(0, 0, 0)
+Launch.TextSize = 14.000
+
+UICorner_36.CornerRadius = UDim.new(0, 4)
+UICorner_36.Parent = Launch
+
+NoThanks.Name = "NoThanks"
+NoThanks.Parent = Start
+NoThanks.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+NoThanks.Position = UDim2.new(0.615942001, 0, 0.752475262, 0)
+NoThanks.Size = UDim2.new(0, 91, 0, 23)
+NoThanks.ZIndex = 4
+NoThanks.AutoButtonColor = false
+NoThanks.Font = Enum.Font.GothamSemibold
+NoThanks.Text = "No thanks"
+NoThanks.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoThanks.TextSize = 14.000
+
+UICorner_37.CornerRadius = UDim.new(0, 4)
+UICorner_37.Parent = NoThanks
+
+Load.Name = "Load"
+Load.Parent = Start
+Load.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Load.BackgroundTransparency = 1.000
+Load.Position = UDim2.new(0.326086938, 0, 0.448275864, 0)
+Load.Size = UDim2.new(0, 95, 0, 24)
+Load.Visible = false
+Load.ZIndex = 4
+Load.Font = Enum.Font.Code
+Load.Text = "Loading"
+Load.TextColor3 = Color3.fromRGB(0, 0, 0)
+Load.TextSize = 18.000
+
 shadowHolder.Name = "shadowHolder"
 shadowHolder.Parent = Back
 shadowHolder.BackgroundTransparency = 1.000
-shadowHolder.Position = UDim2.new(-0.0169035196, 0, -0.0179549269, 0)
-shadowHolder.Size = UDim2.new(1.06101763, 0, 1.09983695, 0)
-shadowHolder.ZIndex = -2
+shadowHolder.Position = UDim2.new(-0.0265889075, 0, -0.00358170457, 0)
+shadowHolder.Size = UDim2.new(1.05684698, 0, 1.09587002, 0)
+shadowHolder.ZIndex = -3
 
 umbraShadow.Name = "umbraShadow"
 umbraShadow.Parent = shadowHolder
 umbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 umbraShadow.BackgroundTransparency = 1.000
-umbraShadow.Position = UDim2.new(0.493588686, 0, 0.477236778, 0)
-umbraShadow.Size = UDim2.new(1.00020075, 2, 1.00483823, 2)
-umbraShadow.ZIndex = -2
+umbraShadow.Position = UDim2.new(0.498401761, 0, 0.502158284, 0)
+umbraShadow.Size = UDim2.new(1.00327694, 2, 1.0042218, 2)
+umbraShadow.ZIndex = -3
 umbraShadow.Image = "rbxassetid://1316045217"
 umbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 umbraShadow.ImageTransparency = 0.860
@@ -627,9 +704,9 @@ penumbraShadow.Name = "penumbraShadow"
 penumbraShadow.Parent = shadowHolder
 penumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 penumbraShadow.BackgroundTransparency = 1.000
-penumbraShadow.Position = UDim2.new(0.493588686, 0, 0.477236778, 0)
-penumbraShadow.Size = UDim2.new(1.00020075, 2, 1.00483823, 2)
-penumbraShadow.ZIndex = -2
+penumbraShadow.Position = UDim2.new(0.498401761, 0, 0.502158284, 0)
+penumbraShadow.Size = UDim2.new(1.00327694, 2, 1.0042218, 2)
+penumbraShadow.ZIndex = -3
 penumbraShadow.Image = "rbxassetid://1316045217"
 penumbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 penumbraShadow.ImageTransparency = 0.880
@@ -640,9 +717,9 @@ ambientShadow.Name = "ambientShadow"
 ambientShadow.Parent = shadowHolder
 ambientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 ambientShadow.BackgroundTransparency = 1.000
-ambientShadow.Position = UDim2.new(0.477559924, 0, 0.456478208, 0)
-ambientShadow.Size = UDim2.new(1.00020075, 2, 1.00483823, 2)
-ambientShadow.ZIndex = -2
+ambientShadow.Position = UDim2.new(0.493283838, 0, 0.468862623, 0)
+ambientShadow.Size = UDim2.new(1.03398442, 2, 1.0042218, 2)
+ambientShadow.ZIndex = -3
 ambientShadow.Image = "rbxassetid://1316045217"
 ambientShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
 ambientShadow.ImageTransparency = 0.880
@@ -651,7 +728,44 @@ ambientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
 -- Scripts:
 
-local function MFHY_fake_script() -- Main.LocalScript 
+local function OQDL_fake_script() -- SkizwareV3.Drag 
+	local script = Instance.new('LocalScript', SkizwareV3)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent.Back
+	local dragToggle = nil
+	local dragSpeed = 0.05
+	local dragStart = nil
+	local startPos = nil
+	--Gui Drag
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(OQDL_fake_script)()
+local function PQVE_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local e = script.Parent
@@ -668,7 +782,7 @@ local function MFHY_fake_script() -- Main.LocalScript
 	local car = e.Car
 	local selexity = e.Selexity
 	local owl = e.OwlHub
-
+	
 	vel.MouseButton1Down:Connect(function()
 		for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
 			if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
@@ -698,20 +812,20 @@ local function MFHY_fake_script() -- Main.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Skitchenexe/SimplisticRagdollEngineGui/main/SimplyRagdoll.lua", true))()
 	end)
 	remote.MouseButton1Down:Connect(function()
-
+	
 		_G.scanRemotes = true
-
+	
 		_G.ignoreNames = {
 			Event = true;
 			MessagesChanged = true;
 		}
-
+	
 		setreadonly(getrawmetatable(game), false)
 		local pseudoEnv = {}
 		local gameMeta = getrawmetatable(game)
-
+	
 		local tabChar = "      "
-
+	
 		local function getSmaller(a, b, notLast)
 			local aByte = a:byte() or -1
 			local bByte = b:byte() or -1
@@ -729,7 +843,7 @@ local function MFHY_fake_script() -- Main.LocalScript
 				return aByte < bByte
 			end
 		end
-
+	
 		local function parseData(obj, numTabs, isKey, overflow, noTables, forceDict)
 			local objType = typeof(obj)
 			local objStr = tostring(obj)
@@ -744,21 +858,21 @@ local function MFHY_fake_script() -- Main.LocalScript
 				local isDict = false
 				local hasTables = false
 				local data = {}
-
+	
 				for key, val in next, obj do
 					if not hasTables and typeof(val) == "table" then
 						hasTables = true
 					end
-
+	
 					if not isDict and key ~= nextIndex then
 						isDict = true
 					else
 						nextIndex = nextIndex + 1
 					end
-
+	
 					data[#data+1] = {key, val}
 				end
-
+	
 				if isDict or hasTables or forceDict then
 					out[#out+1] = (isCyclic and "Cyclic " or "") .. "{"
 					table.sort(data, function(a, b)
@@ -806,7 +920,7 @@ local function MFHY_fake_script() -- Main.LocalScript
 					end
 					out[#out+1] = "{" .. table.concat(data2, ", ") .. "}"
 				end
-
+	
 				return table.concat(out, "\n")
 			else
 				local returnVal = nil
@@ -844,78 +958,71 @@ local function MFHY_fake_script() -- Main.LocalScript
 				return returnVal
 			end
 		end
-
+	
 		function tableToString(t)
 			return parseData(t, 0, false, {}, nil, false)
 		end
-
+	
 		local detectClasses = {
 			BindableEvent = true;
 			BindableFunction = true;
 			RemoteEvent = true;
 			RemoteFunction = true;
 		}
-
+	
 		local classMethods = {
 			BindableEvent = "Fire";
 			BindableFunction = "Invoke";
 			RemoteEvent = "FireServer";
 			RemoteFunction = "InvokeServer";
 		}
-
+	
 		local realMethods = {}
-
+	
 		for name, enabled in next, detectClasses do
 			if enabled then
 				realMethods[classMethods[name]] = Instance.new(name)[classMethods[name]]
 			end
 		end
-
+	
 		for key, value in next, gameMeta do pseudoEnv[key] = value end
-
+	
 		local incId = 0
-
+	
 		local function getValues(self, key, ...)
 			return {realMethods[key](self, ...)}
 		end
-
+	
 		gameMeta.__index, gameMeta.__namecall = function(self, key)
 			if not realMethods[key] or _G.ignoreNames[self.Name] or not _G.scanRemotes then return pseudoEnv.__index(self, key) end
 			return function(_, ...)
 				incId = incId + 1
 				local nowId = incId
 				local strId = "[RemoteSpy_" .. nowId .. "]"
-
+	
 				local allPassed = {...}
 				local returnValues = {}
-
+	
 				local ok, data = pcall(getValues, self, key, ...)
-
+	
 				if ok then
 					returnValues = data
 					print("\n" .. strId .. " ClassName: " .. self.ClassName .. " | Path: " .. self:GetFullName() .. " | Method: " .. key .. "\n" .. strId .. " Packed Arguments: " .. tableToString(allPassed) .. "\n" .. strId .. " Packed Returned: " .. tableToString(returnValues) .. "\n")
 				else
 					print("\n" .. strId .. " ClassName: " .. self.ClassName .. " | Path: " .. self:GetFullName() .. " | Method: " .. key .. "\n" .. strId .. " Packed Arguments: " .. tableToString(allPassed) .. "\n" .. strId .. " Packed Returned: [ERROR] " .. data .. "\n")
 				end
-
+	
 				return unpack(returnValues)
 			end
 		end
-
+	
 		print("\nRan Vaeb's RemoteSpy\n")
 	end)
 	project.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet('https://projectanimatescript.weebly.com/uploads/4/2/3/6/42367003/output.lua'))()
 	end)
-	local CoreGui = game:GetService("StarterGui")
 	sangware.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGet(('https://sangwaretest.netlify.app/'),true))()
-		CoreGui:SetCore("SendNotification", {
-			Title = "Key";
-			Text = "Current key is \"sangwareontop\"";
-			Duration = 5;
-			Button1 = "Ok";
-		})
+		loadstring(game:HttpGetAsync("https://sangwarev2net.netlify.app/"))()
 	end)
 	view.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/dva01xpE", true))()
@@ -929,10 +1036,10 @@ local function MFHY_fake_script() -- Main.LocalScript
 	owl.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/KSWZPvg7"))()
 	end)
-
+	
 end
-coroutine.wrap(MFHY_fake_script)()
-local function AYXSSGQ_fake_script() -- InternalSideBar.LocalScript 
+coroutine.wrap(PQVE_fake_script)()
+local function DFIGM_fake_script() -- InternalSideBar.LocalScript 
 	local script = Instance.new('LocalScript', InternalSideBar)
 
 	local p = script.Parent.Parent.Parent
@@ -947,13 +1054,13 @@ local function AYXSSGQ_fake_script() -- InternalSideBar.LocalScript
 		end
 	end
 end
-coroutine.wrap(AYXSSGQ_fake_script)()
-local function XTMGZMO_fake_script() -- Back.RippleScript 
+coroutine.wrap(DFIGM_fake_script)()
+local function NAWU_fake_script() -- Back.RippleScript 
 	local script = Instance.new('LocalScript', Back)
 
 	local ms = game.Players.LocalPlayer:GetMouse()
 	local ripple = script.Parent.RippleImage
-
+	
 	for i,v in pairs(script.Parent:GetDescendants())do
 		if v:IsA("TextButton")then
 			v.ClipsDescendants = true
@@ -978,8 +1085,8 @@ local function XTMGZMO_fake_script() -- Back.RippleScript
 		end
 	end
 end
-coroutine.wrap(XTMGZMO_fake_script)()
-local function PNIREOQ_fake_script() -- Avatar.LocalScript 
+coroutine.wrap(NAWU_fake_script)()
+local function ZIAR_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	script.Parent.Parent.Welcome.Text = "Welcome, " ..game.Players.LocalPlayer.Name.. " to Skizware V3"
@@ -989,8 +1096,8 @@ local function PNIREOQ_fake_script() -- Avatar.LocalScript
 	local content, isReady = game:GetService("Players"):GetUserThumbnailAsync(me, thumbType, thumbSize)
 	script.Parent.Image = content
 end
-coroutine.wrap(PNIREOQ_fake_script)()
-local function JZGPMUB_fake_script() -- HandyScriptsInternal.LocalScript 
+coroutine.wrap(ZIAR_fake_script)()
+local function ASEZ_fake_script() -- HandyScriptsInternal.LocalScript 
 	local script = Instance.new('LocalScript', HandyScriptsInternal)
 
 	local jump = script.Parent.JumpPower
@@ -1000,10 +1107,10 @@ local function JZGPMUB_fake_script() -- HandyScriptsInternal.LocalScript
 	local rejoin = script.Parent.Rejoin
 	local hop = script.Parent.Serverhop
 	local reset = script.Parent.ForceReset
-
+	
 	local player = game:GetService("Players").LocalPlayer
 	local tpservice = game:GetService("TeleportService")
-
+	
 	jump.FocusLost:Connect(function()
 		if jump.Text ~= "" then
 			player.Character.Humanoid.JumpPower = jump.Text
@@ -1040,41 +1147,38 @@ local function JZGPMUB_fake_script() -- HandyScriptsInternal.LocalScript
 		player.Character:Destroy()
 	end)
 end
-coroutine.wrap(JZGPMUB_fake_script)()
-local function XKXJHC_fake_script() -- SkizwareV3.Drag 
-	local script = Instance.new('LocalScript', SkizwareV3)
+coroutine.wrap(ASEZ_fake_script)()
+local function EVTZVF_fake_script() -- Launch.LocalScript 
+	local script = Instance.new('LocalScript', Launch)
 
-	local UIS = game:GetService('UserInputService')
-	local frame = script.Parent.Back
-	local dragToggle = nil
-	local dragSpeed = 0.05
-	local dragStart = nil
-	local startPos = nil
-	--Gui Drag
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1) then 
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			if dragToggle then
-				updateInput(input)
-			end
-		end
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Load.Visible = true
+		wait(.4)
+		script.Parent.Parent.Load.Text = "Loading."
+		wait(.4)
+		script.Parent.Parent.Load.Text = "Loading.."
+		wait(.4)
+		script.Parent.Parent.Load.Text = "Loading..."
+		wait(.4)
+		script.Parent.Parent.Load.Text = "Loading"
+		wait(.4)
+		script.Parent.Parent.Load.Text = "Loading."
+		wait(.4)
+		script.Parent.Parent.Load.Text = "Loading.."
+		wait(.4)
+		script.Parent.Parent.Load.Text = "Done!"
+		wait(1)
+		script.Parent.Parent:TweenPosition(UDim2.new(-1, 0,0.034, 0),"Out","Quint",.3,false)
+		wait(.5)
+		script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(XKXJHC_fake_script)()
+coroutine.wrap(EVTZVF_fake_script)()
+local function YFLG_fake_script() -- NoThanks.LocalScript 
+	local script = Instance.new('LocalScript', NoThanks)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(YFLG_fake_script)()
