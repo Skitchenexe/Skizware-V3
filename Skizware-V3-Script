@@ -1148,11 +1148,14 @@ local function ASEZ_fake_script() -- HandyScriptsInternal.LocalScript
 	end)
 end
 coroutine.wrap(ASEZ_fake_script)()
+local newdeb = false
 local function EVTZVF_fake_script() -- Launch.LocalScript 
 	local script = Instance.new('LocalScript', Launch)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Load.Visible = true
+		if not newdeb then
+		    newdeb = true
+		    script.Parent.Parent.Load.Visible = true
 		wait(.4)
 		script.Parent.Parent.Load.Text = "Loading."
 		wait(.4)
@@ -1171,6 +1174,9 @@ local function EVTZVF_fake_script() -- Launch.LocalScript
 		script.Parent.Parent:TweenPosition(UDim2.new(-1, 0,0.034, 0),"Out","Quint",.3,false)
 		wait(.5)
 		script.Parent.Parent:Destroy()
+		wait(10)
+		newdeb = false
+	end
 	end)
 end
 coroutine.wrap(EVTZVF_fake_script)()
