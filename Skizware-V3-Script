@@ -99,7 +99,7 @@ local ambientShadow = Instance.new("ImageLabel")
 --Properties:
 
 SkizwareV3.Name = "SkizwareV3"
-SkizwareV3.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SkizwareV3.Parent = game.CoreGui
 SkizwareV3.ResetOnSpawn = false
 
 Back.Name = "Back"
