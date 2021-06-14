@@ -35,66 +35,93 @@ local PartVelocity = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
 local SimplyRagdoll = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local SideBar = Instance.new("Frame")
+local Interaxis = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
+local Troll = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local VR = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Boobies = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local SideBar = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
 local InternalSideBar = Instance.new("Frame")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local Home = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Scripts_2 = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
-local Credit = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local Shadow = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
-local RippleImage = Instance.new("ImageLabel")
 local UICorner_21 = Instance.new("UICorner")
-local Home_2 = Instance.new("Frame")
+local Scripts_2 = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
+local Music = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Credit = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Shadow = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local RippleImage = Instance.new("ImageLabel")
+local UICorner_26 = Instance.new("UICorner")
+local Home_2 = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
 local Main_2 = Instance.new("ScrollingFrame")
 local Avatar = Instance.new("ImageLabel")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
 local AvatarBackground = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local Welcome = Instance.new("TextLabel")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local HandyScripts = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 local HandyScriptsInternal = Instance.new("Frame")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local Leave = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local Rejoin = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
-local Serverhop = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local ForceReset = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local Speed = Instance.new("TextBox")
-local UICorner_31 = Instance.new("UICorner")
-local JumpPower = Instance.new("TextBox")
 local UICorner_32 = Instance.new("UICorner")
-local Gravity = Instance.new("TextBox")
+local Rejoin = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local Credit_2 = Instance.new("Frame")
+local Serverhop = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
+local ForceReset = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Speed = Instance.new("TextBox")
+local UICorner_36 = Instance.new("UICorner")
+local JumpPower = Instance.new("TextBox")
+local UICorner_37 = Instance.new("UICorner")
+local Gravity = Instance.new("TextBox")
+local UICorner_38 = Instance.new("UICorner")
+local Music_2 = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
 local Main_3 = Instance.new("ScrollingFrame")
-local Gui = Instance.new("TextLabel")
-local Scripting = Instance.new("TextLabel")
-local Note = Instance.new("TextLabel")
+local ID = Instance.new("TextBox")
+local UICorner_40 = Instance.new("UICorner")
+local Play = Instance.new("TextButton")
+local UICorner_41 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_42 = Instance.new("UICorner")
+local Pause = Instance.new("TextButton")
+local UICorner_43 = Instance.new("UICorner")
+local Speed_2 = Instance.new("TextBox")
+local UICorner_44 = Instance.new("UICorner")
+local Volume = Instance.new("TextBox")
+local UICorner_45 = Instance.new("UICorner")
+local Reset = Instance.new("TextButton")
+local UICorner_46 = Instance.new("UICorner")
 local StartFrame = Instance.new("Frame")
 local Start = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
+local UICorner_47 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
 local Launch = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_48 = Instance.new("UICorner")
 local NoThanks = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
+local UICorner_49 = Instance.new("UICorner")
 local Load = Instance.new("TextLabel")
 local shadowHolder = Instance.new("Frame")
 local umbraShadow = Instance.new("ImageLabel")
 local penumbraShadow = Instance.new("ImageLabel")
 local ambientShadow = Instance.new("ImageLabel")
+local Credit_2 = Instance.new("Frame")
+local UICorner_50 = Instance.new("UICorner")
+local Main_4 = Instance.new("ScrollingFrame")
+local Gui = Instance.new("TextLabel")
+local Scripting = Instance.new("TextLabel")
+local Note = Instance.new("TextLabel")
 
 --Properties:
 
@@ -124,11 +151,11 @@ Main.Name = "Main"
 Main.Parent = Scripts
 Main.Active = true
 Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main.ScrollBarImageColor3 = Color3.fromRGB(65, 65, 65)
 Main.BackgroundTransparency = 1.000
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
 Main.Size = UDim2.new(0, 158, 0, 185)
+Main.CanvasSize = UDim2.new(0, 0, 2.5, 0)
 Main.ScrollBarThickness = 7
 
 Mizt.Name = "Mizt"
@@ -307,6 +334,60 @@ SimplyRagdoll.TextWrapped = true
 UICorner_15.CornerRadius = UDim.new(0, 4)
 UICorner_15.Parent = SimplyRagdoll
 
+Interaxis.Name = "Interaxis"
+Interaxis.Parent = Main
+Interaxis.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Interaxis.Size = UDim2.new(0, 139, 0, 23)
+Interaxis.AutoButtonColor = false
+Interaxis.Font = Enum.Font.GothamSemibold
+Interaxis.Text = "Interaxis Hub"
+Interaxis.TextColor3 = Color3.fromRGB(0, 0, 0)
+Interaxis.TextSize = 14.000
+Interaxis.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 4)
+UICorner_16.Parent = Interaxis
+
+Troll.Name = "Troll"
+Troll.Parent = Main
+Troll.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Troll.Size = UDim2.new(0, 139, 0, 23)
+Troll.AutoButtonColor = false
+Troll.Font = Enum.Font.GothamSemibold
+Troll.Text = "FE Trolling GUI"
+Troll.TextColor3 = Color3.fromRGB(0, 0, 0)
+Troll.TextSize = 14.000
+Troll.TextWrapped = true
+
+UICorner_17.CornerRadius = UDim.new(0, 4)
+UICorner_17.Parent = Troll
+
+VR.Name = "VR"
+VR.Parent = Main
+VR.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+VR.Size = UDim2.new(0, 139, 0, 23)
+VR.AutoButtonColor = false
+VR.Font = Enum.Font.GothamSemibold
+VR.Text = "FE VR"
+VR.TextColor3 = Color3.fromRGB(0, 0, 0)
+VR.TextSize = 14.000
+
+UICorner_18.CornerRadius = UDim.new(0, 4)
+UICorner_18.Parent = VR
+
+Boobies.Name = "Boobies"
+Boobies.Parent = Main
+Boobies.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Boobies.Size = UDim2.new(0, 139, 0, 23)
+Boobies.AutoButtonColor = false
+Boobies.Font = Enum.Font.GothamSemibold
+Boobies.Text = "FE Boobies"
+Boobies.TextColor3 = Color3.fromRGB(0, 0, 0)
+Boobies.TextSize = 14.000
+
+UICorner_19.CornerRadius = UDim.new(0, 4)
+UICorner_19.Parent = Boobies
+
 SideBar.Name = "SideBar"
 SideBar.Parent = Back
 SideBar.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
@@ -314,7 +395,7 @@ SideBar.BorderSizePixel = 0
 SideBar.Position = UDim2.new(0.0306122452, 0, 0.0365296789, 0)
 SideBar.Size = UDim2.new(0, 102, 0, 202)
 
-UICorner_16.Parent = SideBar
+UICorner_20.Parent = SideBar
 
 InternalSideBar.Name = "InternalSideBar"
 InternalSideBar.Parent = SideBar
@@ -337,8 +418,8 @@ Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(0, 0, 0)
 Home.TextSize = 14.000
 
-UICorner_17.CornerRadius = UDim.new(0, 4)
-UICorner_17.Parent = Home
+UICorner_21.CornerRadius = UDim.new(0, 4)
+UICorner_21.Parent = Home
 
 Scripts_2.Name = "Scripts"
 Scripts_2.Parent = InternalSideBar
@@ -350,8 +431,21 @@ Scripts_2.Text = "Scripts"
 Scripts_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Scripts_2.TextSize = 14.000
 
-UICorner_18.CornerRadius = UDim.new(0, 4)
-UICorner_18.Parent = Scripts_2
+UICorner_22.CornerRadius = UDim.new(0, 4)
+UICorner_22.Parent = Scripts_2
+
+Music.Name = "Music"
+Music.Parent = InternalSideBar
+Music.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Music.Size = UDim2.new(0, 91, 0, 23)
+Music.AutoButtonColor = false
+Music.Font = Enum.Font.GothamSemibold
+Music.Text = "Music"
+Music.TextColor3 = Color3.fromRGB(0, 0, 0)
+Music.TextSize = 14.000
+
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = Music
 
 Credit.Name = "Credit"
 Credit.Parent = InternalSideBar
@@ -363,8 +457,8 @@ Credit.Text = "Credit"
 Credit.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credit.TextSize = 14.000
 
-UICorner_19.CornerRadius = UDim.new(0, 4)
-UICorner_19.Parent = Credit
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = Credit
 
 Shadow.Name = "Shadow"
 Shadow.Parent = Back
@@ -372,7 +466,7 @@ Shadow.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 Shadow.Size = UDim2.new(0, 294, 0, 226)
 Shadow.ZIndex = -1
 
-UICorner_20.Parent = Shadow
+UICorner_25.Parent = Shadow
 
 RippleImage.Name = "RippleImage"
 RippleImage.Parent = Back
@@ -383,7 +477,7 @@ RippleImage.Image = "http://www.roblox.com/asset/?id=4560909609"
 RippleImage.ImageColor3 = Color3.fromRGB(0, 0, 0)
 RippleImage.ImageTransparency = 0.600
 
-UICorner_21.Parent = RippleImage
+UICorner_26.Parent = RippleImage
 
 Home_2.Name = "Home"
 Home_2.Parent = Back
@@ -391,13 +485,12 @@ Home_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Home_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
 Home_2.Size = UDim2.new(0, 167, 0, 202)
 
-UICorner_22.Parent = Home_2
+UICorner_27.Parent = Home_2
 
 Main_2.Name = "Main"
 Main_2.Parent = Home_2
 Main_2.Active = true
 Main_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main_2.ScrollBarImageColor3 = Color3.fromRGB(65, 65, 65)
 Main_2.BackgroundTransparency = 1.000
 Main_2.BorderSizePixel = 0
 Main_2.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
@@ -413,8 +506,8 @@ Avatar.Size = UDim2.new(0, 60, 0, 60)
 Avatar.ZIndex = 2
 Avatar.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-UICorner_23.CornerRadius = UDim.new(0, 100)
-UICorner_23.Parent = Avatar
+UICorner_28.CornerRadius = UDim.new(0, 100)
+UICorner_28.Parent = Avatar
 
 AvatarBackground.Name = "AvatarBackground"
 AvatarBackground.Parent = Avatar
@@ -422,8 +515,8 @@ AvatarBackground.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 AvatarBackground.Position = UDim2.new(-0.0500000007, 0, -0.0500000007, 0)
 AvatarBackground.Size = UDim2.new(0, 65, 0, 65)
 
-UICorner_24.CornerRadius = UDim.new(0, 100)
-UICorner_24.Parent = AvatarBackground
+UICorner_29.CornerRadius = UDim.new(0, 100)
+UICorner_29.Parent = AvatarBackground
 
 Welcome.Name = "Welcome"
 Welcome.Parent = Main_2
@@ -437,7 +530,7 @@ Welcome.TextColor3 = Color3.fromRGB(0, 0, 0)
 Welcome.TextSize = 14.000
 Welcome.TextWrapped = true
 
-UICorner_25.Parent = Welcome
+UICorner_30.Parent = Welcome
 
 HandyScripts.Name = "HandyScripts"
 HandyScripts.Parent = Main_2
@@ -445,7 +538,7 @@ HandyScripts.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 HandyScripts.Position = UDim2.new(0.0316455662, 0, 0.472022891, 0)
 HandyScripts.Size = UDim2.new(0, 136, 0, 215)
 
-UICorner_26.Parent = HandyScripts
+UICorner_31.Parent = HandyScripts
 
 HandyScriptsInternal.Name = "HandyScriptsInternal"
 HandyScriptsInternal.Parent = HandyScripts
@@ -468,8 +561,8 @@ Leave.Text = "Leave game"
 Leave.TextColor3 = Color3.fromRGB(0, 0, 0)
 Leave.TextSize = 14.000
 
-UICorner_27.CornerRadius = UDim.new(0, 5)
-UICorner_27.Parent = Leave
+UICorner_32.CornerRadius = UDim.new(0, 5)
+UICorner_32.Parent = Leave
 
 Rejoin.Name = "Rejoin"
 Rejoin.Parent = HandyScriptsInternal
@@ -481,8 +574,8 @@ Rejoin.Text = "Rejoin"
 Rejoin.TextColor3 = Color3.fromRGB(0, 0, 0)
 Rejoin.TextSize = 14.000
 
-UICorner_28.CornerRadius = UDim.new(0, 5)
-UICorner_28.Parent = Rejoin
+UICorner_33.CornerRadius = UDim.new(0, 5)
+UICorner_33.Parent = Rejoin
 
 Serverhop.Name = "Serverhop"
 Serverhop.Parent = HandyScriptsInternal
@@ -494,8 +587,8 @@ Serverhop.Text = "Serverhop"
 Serverhop.TextColor3 = Color3.fromRGB(0, 0, 0)
 Serverhop.TextSize = 14.000
 
-UICorner_29.CornerRadius = UDim.new(0, 5)
-UICorner_29.Parent = Serverhop
+UICorner_34.CornerRadius = UDim.new(0, 5)
+UICorner_34.Parent = Serverhop
 
 ForceReset.Name = "ForceReset"
 ForceReset.Parent = HandyScriptsInternal
@@ -507,8 +600,8 @@ ForceReset.Text = "Force reset"
 ForceReset.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceReset.TextSize = 14.000
 
-UICorner_30.CornerRadius = UDim.new(0, 5)
-UICorner_30.Parent = ForceReset
+UICorner_35.CornerRadius = UDim.new(0, 5)
+UICorner_35.Parent = ForceReset
 
 Speed.Name = "Speed"
 Speed.Parent = HandyScriptsInternal
@@ -521,8 +614,8 @@ Speed.Text = ""
 Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
 Speed.TextSize = 14.000
 
-UICorner_31.CornerRadius = UDim.new(0, 5)
-UICorner_31.Parent = Speed
+UICorner_36.CornerRadius = UDim.new(0, 5)
+UICorner_36.Parent = Speed
 
 JumpPower.Name = "JumpPower"
 JumpPower.Parent = HandyScriptsInternal
@@ -535,8 +628,8 @@ JumpPower.Text = ""
 JumpPower.TextColor3 = Color3.fromRGB(0, 0, 0)
 JumpPower.TextSize = 14.000
 
-UICorner_32.CornerRadius = UDim.new(0, 5)
-UICorner_32.Parent = JumpPower
+UICorner_37.CornerRadius = UDim.new(0, 5)
+UICorner_37.Parent = JumpPower
 
 Gravity.Name = "Gravity"
 Gravity.Parent = HandyScriptsInternal
@@ -549,62 +642,127 @@ Gravity.Text = ""
 Gravity.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gravity.TextSize = 14.000
 
-UICorner_33.CornerRadius = UDim.new(0, 5)
-UICorner_33.Parent = Gravity
+UICorner_38.CornerRadius = UDim.new(0, 5)
+UICorner_38.Parent = Gravity
 
-Credit_2.Name = "Credit"
-Credit_2.Parent = Back
-Credit_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Credit_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
-Credit_2.Size = UDim2.new(0, 167, 0, 202)
-Credit_2.Visible = false
+Music_2.Name = "Music"
+Music_2.Parent = Back
+Music_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Music_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
+Music_2.Size = UDim2.new(0, 167, 0, 202)
+Music_2.Visible = false
 
-UICorner_34.Parent = Credit_2
+UICorner_39.Parent = Music_2
 
 Main_3.Name = "Main"
-Main_3.Parent = Credit_2
+Main_3.Parent = Music_2
 Main_3.Active = true
 Main_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Main_3.ScrollBarImageColor3 = Color3.fromRGB(65, 65, 65)
 Main_3.BackgroundTransparency = 1.000
 Main_3.BorderSizePixel = 0
 Main_3.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
 Main_3.Size = UDim2.new(0, 158, 0, 185)
 Main_3.ScrollBarThickness = 7
 
-Gui.Name = "Gui"
-Gui.Parent = Main_3
-Gui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gui.BackgroundTransparency = 1.000
-Gui.Position = UDim2.new(-0.0379746817, 0, -0.00808134861, 0)
-Gui.Size = UDim2.new(0, 166, 0, 29)
-Gui.Font = Enum.Font.GothamBold
-Gui.Text = "GUI - Skiz#3661"
-Gui.TextColor3 = Color3.fromRGB(0, 0, 0)
-Gui.TextSize = 14.000
+ID.Name = "ID"
+ID.Parent = Main_3
+ID.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ID.Position = UDim2.new(0.0126582282, 0, 0.00495049497, 0)
+ID.Size = UDim2.new(0, 144, 0, 23)
+ID.Font = Enum.Font.GothamSemibold
+ID.PlaceholderColor3 = Color3.fromRGB(25, 25, 25)
+ID.PlaceholderText = "Music ID.."
+ID.Text = ""
+ID.TextColor3 = Color3.fromRGB(0, 0, 0)
+ID.TextSize = 14.000
 
-Scripting.Name = "Scripting"
-Scripting.Parent = Main_3
-Scripting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Scripting.BackgroundTransparency = 1.000
-Scripting.Position = UDim2.new(-0.062987946, 0, 0.0544554405, 0)
-Scripting.Size = UDim2.new(0, 166, 0, 29)
-Scripting.Font = Enum.Font.GothamBold
-Scripting.Text = "Scripting - Skiz#3661"
-Scripting.TextColor3 = Color3.fromRGB(0, 0, 0)
-Scripting.TextSize = 14.000
+UICorner_40.CornerRadius = UDim.new(0, 5)
+UICorner_40.Parent = ID
 
-Note.Name = "Note"
-Note.Parent = Main_3
-Note.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Note.BackgroundTransparency = 1.000
-Note.Position = UDim2.new(0.0253164601, 0, 0.854582608, 0)
-Note.Size = UDim2.new(0, 146, 0, 64)
-Note.Font = Enum.Font.GothamBold
-Note.Text = "Side note - most of the scripts in the script section are NOT mine"
-Note.TextColor3 = Color3.fromRGB(0, 0, 0)
-Note.TextSize = 14.000
-Note.TextWrapped = true
+Play.Name = "Play"
+Play.Parent = Main_3
+Play.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Play.Position = UDim2.new(0.012658231, 0, 0.219266772, 0)
+Play.Size = UDim2.new(0, 67, 0, 23)
+Play.AutoButtonColor = false
+Play.Font = Enum.Font.GothamSemibold
+Play.Text = "Play"
+Play.TextColor3 = Color3.fromRGB(0, 0, 0)
+Play.TextSize = 14.000
+
+UICorner_41.CornerRadius = UDim.new(0, 5)
+UICorner_41.Parent = Play
+
+TextLabel.Parent = Main_3
+TextLabel.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TextLabel.Position = UDim2.new(0.0126582282, 0, 0.0935930908, 0)
+TextLabel.Size = UDim2.new(0, 144, 0, 38)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Playing:"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_42.CornerRadius = UDim.new(0, 5)
+UICorner_42.Parent = TextLabel
+
+Pause.Name = "Pause"
+Pause.Parent = Main_3
+Pause.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Pause.Position = UDim2.new(0.5, 0, 0.219266772, 0)
+Pause.Size = UDim2.new(0, 67, 0, 23)
+Pause.AutoButtonColor = false
+Pause.Font = Enum.Font.GothamSemibold
+Pause.Text = "Pause"
+Pause.TextColor3 = Color3.fromRGB(0, 0, 0)
+Pause.TextSize = 14.000
+
+UICorner_43.CornerRadius = UDim.new(0, 5)
+UICorner_43.Parent = Pause
+
+Speed_2.Name = "Speed"
+Speed_2.Parent = Main_3
+Speed_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Speed_2.Position = UDim2.new(0.0126582282, 0, 0.304455429, 0)
+Speed_2.Size = UDim2.new(0, 144, 0, 23)
+Speed_2.Font = Enum.Font.GothamSemibold
+Speed_2.PlaceholderColor3 = Color3.fromRGB(25, 25, 25)
+Speed_2.PlaceholderText = "Speed.."
+Speed_2.Text = ""
+Speed_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed_2.TextSize = 14.000
+
+UICorner_44.CornerRadius = UDim.new(0, 5)
+UICorner_44.Parent = Speed_2
+
+Volume.Name = "Volume"
+Volume.Parent = Main_3
+Volume.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Volume.Position = UDim2.new(0.0126582282, 0, 0.38861385, 0)
+Volume.Size = UDim2.new(0, 144, 0, 23)
+Volume.Font = Enum.Font.GothamSemibold
+Volume.PlaceholderColor3 = Color3.fromRGB(25, 25, 25)
+Volume.PlaceholderText = "Volume.."
+Volume.Text = ""
+Volume.TextColor3 = Color3.fromRGB(0, 0, 0)
+Volume.TextSize = 14.000
+
+UICorner_45.CornerRadius = UDim.new(0, 5)
+UICorner_45.Parent = Volume
+
+Reset.Name = "Reset"
+Reset.Parent = Main_3
+Reset.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Reset.Position = UDim2.new(0.0126582282, 0, 0.472957492, 0)
+Reset.Size = UDim2.new(0, 144, 0, 23)
+Reset.AutoButtonColor = false
+Reset.Font = Enum.Font.GothamSemibold
+Reset.Text = "Reset"
+Reset.TextColor3 = Color3.fromRGB(0, 0, 0)
+Reset.TextSize = 14.000
+
+UICorner_46.CornerRadius = UDim.new(0, 5)
+UICorner_46.Parent = Reset
 
 StartFrame.Name = "StartFrame"
 StartFrame.Parent = Back
@@ -614,6 +772,7 @@ StartFrame.BorderSizePixel = 0
 StartFrame.ClipsDescendants = true
 StartFrame.Position = UDim2.new(0.0374149643, 0, 0.0365296789, 0)
 StartFrame.Size = UDim2.new(0, 273, 0, 201)
+StartFrame.Visible = false
 
 Start.Name = "Start"
 Start.Parent = StartFrame
@@ -622,20 +781,20 @@ Start.Position = UDim2.new(-0.00912151393, 0, -0.00129585841, 0)
 Start.Size = UDim2.new(0, 275, 0, 205)
 Start.ZIndex = 3
 
-UICorner_35.Parent = Start
+UICorner_47.Parent = Start
 
-TextLabel.Parent = Start
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.Position = UDim2.new(0.0797101483, 0, 0.0792079195, 0)
-TextLabel.Size = UDim2.new(0, 236, 0, 43)
-TextLabel.ZIndex = 4
-TextLabel.Font = Enum.Font.GothamSemibold
-TextLabel.Text = "Do you want to execute Skizware V3?"
-TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
+TextLabel_2.Parent = Start
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0797101483, 0, 0.0792079195, 0)
+TextLabel_2.Size = UDim2.new(0, 236, 0, 43)
+TextLabel_2.ZIndex = 4
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Do you want to execute Skizware V3?"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
 
 Launch.Name = "Launch"
 Launch.Parent = Start
@@ -649,8 +808,8 @@ Launch.Text = "Launch"
 Launch.TextColor3 = Color3.fromRGB(0, 0, 0)
 Launch.TextSize = 14.000
 
-UICorner_36.CornerRadius = UDim.new(0, 4)
-UICorner_36.Parent = Launch
+UICorner_48.CornerRadius = UDim.new(0, 4)
+UICorner_48.Parent = Launch
 
 NoThanks.Name = "NoThanks"
 NoThanks.Parent = Start
@@ -664,8 +823,8 @@ NoThanks.Text = "No thanks"
 NoThanks.TextColor3 = Color3.fromRGB(0, 0, 0)
 NoThanks.TextSize = 14.000
 
-UICorner_37.CornerRadius = UDim.new(0, 4)
-UICorner_37.Parent = NoThanks
+UICorner_49.CornerRadius = UDim.new(0, 4)
+UICorner_49.Parent = NoThanks
 
 Load.Name = "Load"
 Load.Parent = Start
@@ -726,15 +885,68 @@ ambientShadow.ImageTransparency = 0.880
 ambientShadow.ScaleType = Enum.ScaleType.Slice
 ambientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
+Credit_2.Name = "Credit"
+Credit_2.Parent = Back
+Credit_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Credit_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
+Credit_2.Size = UDim2.new(0, 167, 0, 202)
+Credit_2.Visible = false
+
+UICorner_50.Parent = Credit_2
+
+Main_4.Name = "Main"
+Main_4.Parent = Credit_2
+Main_4.Active = true
+Main_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_4.BackgroundTransparency = 1.000
+Main_4.BorderSizePixel = 0
+Main_4.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
+Main_4.Size = UDim2.new(0, 158, 0, 185)
+Main_4.ScrollBarThickness = 7
+
+Gui.Name = "Gui"
+Gui.Parent = Main_4
+Gui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gui.BackgroundTransparency = 1.000
+Gui.Position = UDim2.new(-0.0379746817, 0, -0.00808134861, 0)
+Gui.Size = UDim2.new(0, 166, 0, 29)
+Gui.Font = Enum.Font.GothamBold
+Gui.Text = "GUI - Skiz#3661"
+Gui.TextColor3 = Color3.fromRGB(0, 0, 0)
+Gui.TextSize = 14.000
+
+Scripting.Name = "Scripting"
+Scripting.Parent = Main_4
+Scripting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripting.BackgroundTransparency = 1.000
+Scripting.Position = UDim2.new(-0.062987946, 0, 0.0544554405, 0)
+Scripting.Size = UDim2.new(0, 166, 0, 29)
+Scripting.Font = Enum.Font.GothamBold
+Scripting.Text = "Scripting - Skiz#3661"
+Scripting.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripting.TextSize = 14.000
+
+Note.Name = "Note"
+Note.Parent = Main_4
+Note.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Note.BackgroundTransparency = 1.000
+Note.Position = UDim2.new(0.0253164601, 0, 0.854582608, 0)
+Note.Size = UDim2.new(0, 146, 0, 64)
+Note.Font = Enum.Font.GothamBold
+Note.Text = "Side note - most of the scripts in the script section are NOT mine"
+Note.TextColor3 = Color3.fromRGB(0, 0, 0)
+Note.TextSize = 14.000
+Note.TextWrapped = true
+
 -- Scripts:
 
-local function OQDL_fake_script() -- SkizwareV3.Drag 
+local function WFKH_fake_script() -- SkizwareV3.Drag 
 	local script = Instance.new('LocalScript', SkizwareV3)
 
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent.Back
 	local dragToggle = nil
-	local dragSpeed = 0.05
+	local dragSpeed = 0.1
 	local dragStart = nil
 	local startPos = nil
 	--Gui Drag
@@ -764,8 +976,8 @@ local function OQDL_fake_script() -- SkizwareV3.Drag
 		end
 	end)
 end
-coroutine.wrap(OQDL_fake_script)()
-local function PQVE_fake_script() -- Main.LocalScript 
+coroutine.wrap(WFKH_fake_script)()
+local function ZMUPO_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local e = script.Parent
@@ -782,6 +994,7 @@ local function PQVE_fake_script() -- Main.LocalScript
 	local car = e.Car
 	local selexity = e.Selexity
 	local owl = e.OwlHub
+	local me = game:GetService("Players").LocalPlayer
 	
 	vel.MouseButton1Down:Connect(function()
 		for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
@@ -1022,7 +1235,13 @@ local function PQVE_fake_script() -- Main.LocalScript
 		loadstring(game:HttpGet('https://projectanimatescript.weebly.com/uploads/4/2/3/6/42367003/output.lua'))()
 	end)
 	sangware.MouseButton1Down:Connect(function()
-		loadstring(game:HttpGetAsync("https://sangwarev2net.netlify.app/"))()
+		loadstring(game:HttpGet(('https://sangwaretest.netlify.app/'),true))()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Key";
+			Text = "Current key is \"sangwareontop\"";
+			Duration = 5;
+			Button1 = "Ok";
+		})
 	end)
 	view.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/dva01xpE", true))()
@@ -1036,10 +1255,44 @@ local function PQVE_fake_script() -- Main.LocalScript
 	owl.MouseButton1Down:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/KSWZPvg7"))()
 	end)
+	e.Interaxis.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/bigjohnny1234/Interaxis-hub/main/README.md"))()
+	end)
+	e.Troll.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/wDh1eTdX"))()
+	end)
+	e.VR.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/Pp1aUHa2?q", true))()
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "VR";
+			Text = "A VR Headset is required for this script";
+			Duration = 5;
+			Button1 = "Ok";
+		})
+		wait(1)
+		setclipboard("63690008 451220849 617605556")
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "VR";
+			Text = "Hats required have been copied to clipboard";
+			Duration = 5;
+			Button1 = "Thanks!";
+		})
+	end)
+	e.Boobies.MouseButton1Down:Connect(function()
+		setclipboard("11679229 14463468 5945909830")
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "Hats";
+			Text = "Hats needed have been copied to clipboard";
+			Duration = 5;
+			Button1 = "Thanks!";
+		})
+		loadstring(game:HttpGet("https://pastebin.com/raw/ke5uknTL", true))()
+	end)
+	
 	
 end
-coroutine.wrap(PQVE_fake_script)()
-local function DFIGM_fake_script() -- InternalSideBar.LocalScript 
+coroutine.wrap(ZMUPO_fake_script)()
+local function FSDSFUO_fake_script() -- InternalSideBar.LocalScript 
 	local script = Instance.new('LocalScript', InternalSideBar)
 
 	local p = script.Parent.Parent.Parent
@@ -1049,17 +1302,29 @@ local function DFIGM_fake_script() -- InternalSideBar.LocalScript
 				p.Credit.Visible = false
 				p.Home.Visible = false
 				p.Scripts.Visible = false
+				p.Music.Visible = false
 				p[v.Name].Visible = true
 			end)
 		end
 	end
 end
-coroutine.wrap(DFIGM_fake_script)()
-local function NAWU_fake_script() -- Back.RippleScript 
+coroutine.wrap(FSDSFUO_fake_script)()
+local function EVNOAUO_fake_script() -- Back.RippleScript 
 	local script = Instance.new('LocalScript', Back)
 
 	local ms = game.Players.LocalPlayer:GetMouse()
 	local ripple = script.Parent.RippleImage
+	
+	local scrolls = {
+		script.Parent.Home.Main,
+		script.Parent.Music.Main,
+		script.Parent.Credit.Main,
+		script.Parent.Scripts.Main
+	}
+	
+	for i,v in pairs(scrolls)do
+		v.ScrollBarImageColor3 = Color3.fromRGB(65,65,65)
+	end
 	
 	for i,v in pairs(script.Parent:GetDescendants())do
 		if v:IsA("TextButton")then
@@ -1085,8 +1350,8 @@ local function NAWU_fake_script() -- Back.RippleScript
 		end
 	end
 end
-coroutine.wrap(NAWU_fake_script)()
-local function ZIAR_fake_script() -- Avatar.LocalScript 
+coroutine.wrap(EVNOAUO_fake_script)()
+local function YTBE_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	script.Parent.Parent.Welcome.Text = "Welcome, " ..game.Players.LocalPlayer.Name.. " to Skizware V3"
@@ -1096,8 +1361,8 @@ local function ZIAR_fake_script() -- Avatar.LocalScript
 	local content, isReady = game:GetService("Players"):GetUserThumbnailAsync(me, thumbType, thumbSize)
 	script.Parent.Image = content
 end
-coroutine.wrap(ZIAR_fake_script)()
-local function ASEZ_fake_script() -- HandyScriptsInternal.LocalScript 
+coroutine.wrap(YTBE_fake_script)()
+local function LZER_fake_script() -- HandyScriptsInternal.LocalScript 
 	local script = Instance.new('LocalScript', HandyScriptsInternal)
 
 	local jump = script.Parent.JumpPower
@@ -1147,15 +1412,53 @@ local function ASEZ_fake_script() -- HandyScriptsInternal.LocalScript
 		player.Character:Destroy()
 	end)
 end
-coroutine.wrap(ASEZ_fake_script)()
-local newdeb = false
-local function EVTZVF_fake_script() -- Launch.LocalScript 
+coroutine.wrap(LZER_fake_script)()
+local function WRNFYNP_fake_script() -- Main_3.LocalScript 
+	local script = Instance.new('LocalScript', Main_3)
+
+	local music = Instance.new("Sound", game:GetService("Workspace"))
+	music.Name = "SkizwareMusic"
+	music.Looped = true
+	local MarketPlaceService = game:GetService("MarketplaceService")
+	
+	script.Parent.ID.FocusLost:Connect(function()
+		if script.Parent.ID.Text ~= "" then
+			local asset = game:GetService("MarketplaceService"):GetProductInfo(tonumber(script.Parent.ID.Text))
+			music.SoundId = "rbxassetid://" .. script.Parent.ID.Text
+			script.Parent.TextLabel.Text = "Playing:" .. asset.Name
+			music.TimePosition = 0
+		end
+	end)
+	script.Parent.Play.MouseButton1Down:Connect(function()
+		music.Playing = true
+	end)
+	script.Parent.Pause.MouseButton1Down:Connect(function()
+		music.Playing = false
+	end)
+	script.Parent.Speed.FocusLost:Connect(function()
+		if script.Parent.Speed.Text ~= "" then
+			music.PlaybackSpeed = script.Parent.Speed.Text
+		end
+	end)
+	script.Parent.Volume.FocusLost:Connect(function()
+		if script.Parent.Volume.Text ~= "" then
+			music.Volume = script.Parent.Volume.Text
+		end
+	end)
+	script.Parent.Reset.MouseButton1Down:Connect(function()
+		music.SoundId = ""
+		script.Parent.ID.Text = ""
+		script.Parent.TextLabel.Text = "Playing:"
+		music.TimePosition = 0
+	end)
+	
+end
+coroutine.wrap(WRNFYNP_fake_script)()
+local function VHDJG_fake_script() -- Launch.LocalScript 
 	local script = Instance.new('LocalScript', Launch)
 
 	script.Parent.MouseButton1Down:Connect(function()
-		if not newdeb then
-		    newdeb = true
-		    script.Parent.Parent.Load.Visible = true
+		script.Parent.Parent.Load.Visible = true
 		wait(.4)
 		script.Parent.Parent.Load.Text = "Loading."
 		wait(.4)
@@ -1174,17 +1477,14 @@ local function EVTZVF_fake_script() -- Launch.LocalScript
 		script.Parent.Parent:TweenPosition(UDim2.new(-1, 0,0.034, 0),"Out","Quint",.3,false)
 		wait(.5)
 		script.Parent.Parent:Destroy()
-		wait(10)
-		newdeb = false
-	end
 	end)
 end
-coroutine.wrap(EVTZVF_fake_script)()
-local function YFLG_fake_script() -- NoThanks.LocalScript 
+coroutine.wrap(VHDJG_fake_script)()
+local function UZZO_fake_script() -- NoThanks.LocalScript 
 	local script = Instance.new('LocalScript', NoThanks)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(YFLG_fake_script)()
+coroutine.wrap(UZZO_fake_script)()
