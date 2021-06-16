@@ -49,81 +49,104 @@ local InternalSideBar = Instance.new("Frame")
 local UIListLayout_2 = Instance.new("UIListLayout")
 local Home = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
-local Scripts_2 = Instance.new("TextButton")
+local Executor = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
-local Music = Instance.new("TextButton")
+local Scripts_2 = Instance.new("TextButton")
 local UICorner_23 = Instance.new("UICorner")
-local Credit = Instance.new("TextButton")
+local Music = Instance.new("TextButton")
 local UICorner_24 = Instance.new("UICorner")
-local Shadow = Instance.new("Frame")
+local Credit = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
-local RippleImage = Instance.new("ImageLabel")
+local Shadow = Instance.new("Frame")
 local UICorner_26 = Instance.new("UICorner")
-local Home_2 = Instance.new("Frame")
+local RippleImage = Instance.new("ImageLabel")
 local UICorner_27 = Instance.new("UICorner")
+local Home_2 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
 local Main_2 = Instance.new("ScrollingFrame")
 local Avatar = Instance.new("ImageLabel")
-local UICorner_28 = Instance.new("UICorner")
-local AvatarBackground = Instance.new("Frame")
 local UICorner_29 = Instance.new("UICorner")
-local Welcome = Instance.new("TextLabel")
+local AvatarBackground = Instance.new("Frame")
 local UICorner_30 = Instance.new("UICorner")
-local HandyScripts = Instance.new("Frame")
+local Welcome = Instance.new("TextLabel")
 local UICorner_31 = Instance.new("UICorner")
+local HandyScripts = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
 local HandyScriptsInternal = Instance.new("Frame")
 local UIListLayout_3 = Instance.new("UIListLayout")
 local Leave = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local Rejoin = Instance.new("TextButton")
 local UICorner_33 = Instance.new("UICorner")
-local Serverhop = Instance.new("TextButton")
+local Rejoin = Instance.new("TextButton")
 local UICorner_34 = Instance.new("UICorner")
-local ForceReset = Instance.new("TextButton")
+local Serverhop = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
-local Speed = Instance.new("TextBox")
+local ForceReset = Instance.new("TextButton")
 local UICorner_36 = Instance.new("UICorner")
-local JumpPower = Instance.new("TextBox")
+local Speed = Instance.new("TextBox")
 local UICorner_37 = Instance.new("UICorner")
-local Gravity = Instance.new("TextBox")
+local JumpPower = Instance.new("TextBox")
 local UICorner_38 = Instance.new("UICorner")
-local Music_2 = Instance.new("Frame")
+local Gravity = Instance.new("TextBox")
 local UICorner_39 = Instance.new("UICorner")
+local Music_2 = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
 local Main_3 = Instance.new("ScrollingFrame")
 local ID = Instance.new("TextBox")
-local UICorner_40 = Instance.new("UICorner")
-local Play = Instance.new("TextButton")
 local UICorner_41 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
+local Play = Instance.new("TextButton")
 local UICorner_42 = Instance.new("UICorner")
-local Pause = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
 local UICorner_43 = Instance.new("UICorner")
-local Speed_2 = Instance.new("TextBox")
+local Pause = Instance.new("TextButton")
 local UICorner_44 = Instance.new("UICorner")
-local Volume = Instance.new("TextBox")
+local Speed_2 = Instance.new("TextBox")
 local UICorner_45 = Instance.new("UICorner")
-local Reset = Instance.new("TextButton")
+local Volume = Instance.new("TextBox")
 local UICorner_46 = Instance.new("UICorner")
+local Reset = Instance.new("TextButton")
+local UICorner_47 = Instance.new("UICorner")
 local StartFrame = Instance.new("Frame")
 local Start = Instance.new("Frame")
-local UICorner_47 = Instance.new("UICorner")
+local UICorner_48 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local Launch = Instance.new("TextButton")
-local UICorner_48 = Instance.new("UICorner")
-local NoThanks = Instance.new("TextButton")
 local UICorner_49 = Instance.new("UICorner")
+local NoThanks = Instance.new("TextButton")
+local UICorner_50 = Instance.new("UICorner")
 local Load = Instance.new("TextLabel")
 local shadowHolder = Instance.new("Frame")
 local umbraShadow = Instance.new("ImageLabel")
 local penumbraShadow = Instance.new("ImageLabel")
 local ambientShadow = Instance.new("ImageLabel")
-local Credit_2 = Instance.new("Frame")
-local UICorner_50 = Instance.new("UICorner")
+local Executor_2 = Instance.new("Frame")
+local UICorner_51 = Instance.new("UICorner")
 local Main_4 = Instance.new("ScrollingFrame")
+local Code = Instance.new("TextBox")
+local UICorner_52 = Instance.new("UICorner")
+local Enlarge = Instance.new("ImageButton")
+local UICorner_53 = Instance.new("UICorner")
+local Execute = Instance.new("TextButton")
+local UICorner_54 = Instance.new("UICorner")
+local Credit_2 = Instance.new("Frame")
+local UICorner_55 = Instance.new("UICorner")
+local Main_5 = Instance.new("ScrollingFrame")
 local Gui = Instance.new("TextLabel")
 local Scripting = Instance.new("TextLabel")
 local Note = Instance.new("TextLabel")
-
---Properties:
+local ExternalExecutor = Instance.new("Frame")
+local Internal = Instance.new("Frame")
+local UICorner_56 = Instance.new("UICorner")
+local Main_6 = Instance.new("ScrollingFrame")
+local LinesExternal = Instance.new("TextLabel")
+local LinesInternal = Instance.new("TextLabel")
+local UICorner_57 = Instance.new("UICorner")
+local Execute_2 = Instance.new("TextButton")
+local UICorner_58 = Instance.new("UICorner")
+local Clear = Instance.new("TextButton")
+local UICorner_59 = Instance.new("UICorner")
+local Code_2 = Instance.new("TextBox")
+local UICorner_60 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
 
 SkizwareV3.Name = "SkizwareV3"
 SkizwareV3.Parent = game.CoreGui
@@ -421,6 +444,19 @@ Home.TextSize = 14.000
 UICorner_21.CornerRadius = UDim.new(0, 4)
 UICorner_21.Parent = Home
 
+Executor.Name = "Executor"
+Executor.Parent = InternalSideBar
+Executor.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Executor.Size = UDim2.new(0, 91, 0, 23)
+Executor.AutoButtonColor = false
+Executor.Font = Enum.Font.GothamSemibold
+Executor.Text = "Executor"
+Executor.TextColor3 = Color3.fromRGB(0, 0, 0)
+Executor.TextSize = 14.000
+
+UICorner_22.CornerRadius = UDim.new(0, 4)
+UICorner_22.Parent = Executor
+
 Scripts_2.Name = "Scripts"
 Scripts_2.Parent = InternalSideBar
 Scripts_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -431,8 +467,8 @@ Scripts_2.Text = "Scripts"
 Scripts_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Scripts_2.TextSize = 14.000
 
-UICorner_22.CornerRadius = UDim.new(0, 4)
-UICorner_22.Parent = Scripts_2
+UICorner_23.CornerRadius = UDim.new(0, 4)
+UICorner_23.Parent = Scripts_2
 
 Music.Name = "Music"
 Music.Parent = InternalSideBar
@@ -444,8 +480,8 @@ Music.Text = "Music"
 Music.TextColor3 = Color3.fromRGB(0, 0, 0)
 Music.TextSize = 14.000
 
-UICorner_23.CornerRadius = UDim.new(0, 4)
-UICorner_23.Parent = Music
+UICorner_24.CornerRadius = UDim.new(0, 4)
+UICorner_24.Parent = Music
 
 Credit.Name = "Credit"
 Credit.Parent = InternalSideBar
@@ -457,8 +493,8 @@ Credit.Text = "Credit"
 Credit.TextColor3 = Color3.fromRGB(0, 0, 0)
 Credit.TextSize = 14.000
 
-UICorner_24.CornerRadius = UDim.new(0, 4)
-UICorner_24.Parent = Credit
+UICorner_25.CornerRadius = UDim.new(0, 4)
+UICorner_25.Parent = Credit
 
 Shadow.Name = "Shadow"
 Shadow.Parent = Back
@@ -466,7 +502,7 @@ Shadow.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
 Shadow.Size = UDim2.new(0, 294, 0, 226)
 Shadow.ZIndex = -1
 
-UICorner_25.Parent = Shadow
+UICorner_26.Parent = Shadow
 
 RippleImage.Name = "RippleImage"
 RippleImage.Parent = Back
@@ -477,7 +513,7 @@ RippleImage.Image = "http://www.roblox.com/asset/?id=4560909609"
 RippleImage.ImageColor3 = Color3.fromRGB(0, 0, 0)
 RippleImage.ImageTransparency = 0.600
 
-UICorner_26.Parent = RippleImage
+UICorner_27.Parent = RippleImage
 
 Home_2.Name = "Home"
 Home_2.Parent = Back
@@ -485,7 +521,7 @@ Home_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Home_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
 Home_2.Size = UDim2.new(0, 167, 0, 202)
 
-UICorner_27.Parent = Home_2
+UICorner_28.Parent = Home_2
 
 Main_2.Name = "Main"
 Main_2.Parent = Home_2
@@ -506,8 +542,8 @@ Avatar.Size = UDim2.new(0, 60, 0, 60)
 Avatar.ZIndex = 2
 Avatar.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
 
-UICorner_28.CornerRadius = UDim.new(0, 100)
-UICorner_28.Parent = Avatar
+UICorner_29.CornerRadius = UDim.new(0, 100)
+UICorner_29.Parent = Avatar
 
 AvatarBackground.Name = "AvatarBackground"
 AvatarBackground.Parent = Avatar
@@ -515,8 +551,8 @@ AvatarBackground.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 AvatarBackground.Position = UDim2.new(-0.0500000007, 0, -0.0500000007, 0)
 AvatarBackground.Size = UDim2.new(0, 65, 0, 65)
 
-UICorner_29.CornerRadius = UDim.new(0, 100)
-UICorner_29.Parent = AvatarBackground
+UICorner_30.CornerRadius = UDim.new(0, 100)
+UICorner_30.Parent = AvatarBackground
 
 Welcome.Name = "Welcome"
 Welcome.Parent = Main_2
@@ -530,7 +566,7 @@ Welcome.TextColor3 = Color3.fromRGB(0, 0, 0)
 Welcome.TextSize = 14.000
 Welcome.TextWrapped = true
 
-UICorner_30.Parent = Welcome
+UICorner_31.Parent = Welcome
 
 HandyScripts.Name = "HandyScripts"
 HandyScripts.Parent = Main_2
@@ -538,7 +574,7 @@ HandyScripts.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 HandyScripts.Position = UDim2.new(0.0316455662, 0, 0.472022891, 0)
 HandyScripts.Size = UDim2.new(0, 136, 0, 215)
 
-UICorner_31.Parent = HandyScripts
+UICorner_32.Parent = HandyScripts
 
 HandyScriptsInternal.Name = "HandyScriptsInternal"
 HandyScriptsInternal.Parent = HandyScripts
@@ -561,8 +597,8 @@ Leave.Text = "Leave game"
 Leave.TextColor3 = Color3.fromRGB(0, 0, 0)
 Leave.TextSize = 14.000
 
-UICorner_32.CornerRadius = UDim.new(0, 5)
-UICorner_32.Parent = Leave
+UICorner_33.CornerRadius = UDim.new(0, 5)
+UICorner_33.Parent = Leave
 
 Rejoin.Name = "Rejoin"
 Rejoin.Parent = HandyScriptsInternal
@@ -574,8 +610,8 @@ Rejoin.Text = "Rejoin"
 Rejoin.TextColor3 = Color3.fromRGB(0, 0, 0)
 Rejoin.TextSize = 14.000
 
-UICorner_33.CornerRadius = UDim.new(0, 5)
-UICorner_33.Parent = Rejoin
+UICorner_34.CornerRadius = UDim.new(0, 5)
+UICorner_34.Parent = Rejoin
 
 Serverhop.Name = "Serverhop"
 Serverhop.Parent = HandyScriptsInternal
@@ -587,8 +623,8 @@ Serverhop.Text = "Serverhop"
 Serverhop.TextColor3 = Color3.fromRGB(0, 0, 0)
 Serverhop.TextSize = 14.000
 
-UICorner_34.CornerRadius = UDim.new(0, 5)
-UICorner_34.Parent = Serverhop
+UICorner_35.CornerRadius = UDim.new(0, 5)
+UICorner_35.Parent = Serverhop
 
 ForceReset.Name = "ForceReset"
 ForceReset.Parent = HandyScriptsInternal
@@ -600,8 +636,8 @@ ForceReset.Text = "Force reset"
 ForceReset.TextColor3 = Color3.fromRGB(0, 0, 0)
 ForceReset.TextSize = 14.000
 
-UICorner_35.CornerRadius = UDim.new(0, 5)
-UICorner_35.Parent = ForceReset
+UICorner_36.CornerRadius = UDim.new(0, 5)
+UICorner_36.Parent = ForceReset
 
 Speed.Name = "Speed"
 Speed.Parent = HandyScriptsInternal
@@ -614,8 +650,8 @@ Speed.Text = ""
 Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
 Speed.TextSize = 14.000
 
-UICorner_36.CornerRadius = UDim.new(0, 5)
-UICorner_36.Parent = Speed
+UICorner_37.CornerRadius = UDim.new(0, 5)
+UICorner_37.Parent = Speed
 
 JumpPower.Name = "JumpPower"
 JumpPower.Parent = HandyScriptsInternal
@@ -628,8 +664,8 @@ JumpPower.Text = ""
 JumpPower.TextColor3 = Color3.fromRGB(0, 0, 0)
 JumpPower.TextSize = 14.000
 
-UICorner_37.CornerRadius = UDim.new(0, 5)
-UICorner_37.Parent = JumpPower
+UICorner_38.CornerRadius = UDim.new(0, 5)
+UICorner_38.Parent = JumpPower
 
 Gravity.Name = "Gravity"
 Gravity.Parent = HandyScriptsInternal
@@ -642,8 +678,8 @@ Gravity.Text = ""
 Gravity.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gravity.TextSize = 14.000
 
-UICorner_38.CornerRadius = UDim.new(0, 5)
-UICorner_38.Parent = Gravity
+UICorner_39.CornerRadius = UDim.new(0, 5)
+UICorner_39.Parent = Gravity
 
 Music_2.Name = "Music"
 Music_2.Parent = Back
@@ -652,7 +688,7 @@ Music_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
 Music_2.Size = UDim2.new(0, 167, 0, 202)
 Music_2.Visible = false
 
-UICorner_39.Parent = Music_2
+UICorner_40.Parent = Music_2
 
 Main_3.Name = "Main"
 Main_3.Parent = Music_2
@@ -676,8 +712,8 @@ ID.Text = ""
 ID.TextColor3 = Color3.fromRGB(0, 0, 0)
 ID.TextSize = 14.000
 
-UICorner_40.CornerRadius = UDim.new(0, 5)
-UICorner_40.Parent = ID
+UICorner_41.CornerRadius = UDim.new(0, 5)
+UICorner_41.Parent = ID
 
 Play.Name = "Play"
 Play.Parent = Main_3
@@ -690,8 +726,8 @@ Play.Text = "Play"
 Play.TextColor3 = Color3.fromRGB(0, 0, 0)
 Play.TextSize = 14.000
 
-UICorner_41.CornerRadius = UDim.new(0, 5)
-UICorner_41.Parent = Play
+UICorner_42.CornerRadius = UDim.new(0, 5)
+UICorner_42.Parent = Play
 
 TextLabel.Parent = Main_3
 TextLabel.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -703,8 +739,8 @@ TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
-UICorner_42.CornerRadius = UDim.new(0, 5)
-UICorner_42.Parent = TextLabel
+UICorner_43.CornerRadius = UDim.new(0, 5)
+UICorner_43.Parent = TextLabel
 
 Pause.Name = "Pause"
 Pause.Parent = Main_3
@@ -717,8 +753,8 @@ Pause.Text = "Pause"
 Pause.TextColor3 = Color3.fromRGB(0, 0, 0)
 Pause.TextSize = 14.000
 
-UICorner_43.CornerRadius = UDim.new(0, 5)
-UICorner_43.Parent = Pause
+UICorner_44.CornerRadius = UDim.new(0, 5)
+UICorner_44.Parent = Pause
 
 Speed_2.Name = "Speed"
 Speed_2.Parent = Main_3
@@ -732,8 +768,8 @@ Speed_2.Text = ""
 Speed_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Speed_2.TextSize = 14.000
 
-UICorner_44.CornerRadius = UDim.new(0, 5)
-UICorner_44.Parent = Speed_2
+UICorner_45.CornerRadius = UDim.new(0, 5)
+UICorner_45.Parent = Speed_2
 
 Volume.Name = "Volume"
 Volume.Parent = Main_3
@@ -747,8 +783,8 @@ Volume.Text = ""
 Volume.TextColor3 = Color3.fromRGB(0, 0, 0)
 Volume.TextSize = 14.000
 
-UICorner_45.CornerRadius = UDim.new(0, 5)
-UICorner_45.Parent = Volume
+UICorner_46.CornerRadius = UDim.new(0, 5)
+UICorner_46.Parent = Volume
 
 Reset.Name = "Reset"
 Reset.Parent = Main_3
@@ -761,8 +797,8 @@ Reset.Text = "Reset"
 Reset.TextColor3 = Color3.fromRGB(0, 0, 0)
 Reset.TextSize = 14.000
 
-UICorner_46.CornerRadius = UDim.new(0, 5)
-UICorner_46.Parent = Reset
+UICorner_47.CornerRadius = UDim.new(0, 5)
+UICorner_47.Parent = Reset
 
 StartFrame.Name = "StartFrame"
 StartFrame.Parent = Back
@@ -781,7 +817,7 @@ Start.Position = UDim2.new(-0.00912151393, 0, -0.00129585841, 0)
 Start.Size = UDim2.new(0, 275, 0, 205)
 Start.ZIndex = 3
 
-UICorner_47.Parent = Start
+UICorner_48.Parent = Start
 
 TextLabel_2.Parent = Start
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -808,8 +844,8 @@ Launch.Text = "Launch"
 Launch.TextColor3 = Color3.fromRGB(0, 0, 0)
 Launch.TextSize = 14.000
 
-UICorner_48.CornerRadius = UDim.new(0, 4)
-UICorner_48.Parent = Launch
+UICorner_49.CornerRadius = UDim.new(0, 4)
+UICorner_49.Parent = Launch
 
 NoThanks.Name = "NoThanks"
 NoThanks.Parent = Start
@@ -823,8 +859,8 @@ NoThanks.Text = "No thanks"
 NoThanks.TextColor3 = Color3.fromRGB(0, 0, 0)
 NoThanks.TextSize = 14.000
 
-UICorner_49.CornerRadius = UDim.new(0, 4)
-UICorner_49.Parent = NoThanks
+UICorner_50.CornerRadius = UDim.new(0, 4)
+UICorner_50.Parent = NoThanks
 
 Load.Name = "Load"
 Load.Parent = Start
@@ -885,17 +921,17 @@ ambientShadow.ImageTransparency = 0.880
 ambientShadow.ScaleType = Enum.ScaleType.Slice
 ambientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
 
-Credit_2.Name = "Credit"
-Credit_2.Parent = Back
-Credit_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Credit_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
-Credit_2.Size = UDim2.new(0, 167, 0, 202)
-Credit_2.Visible = false
+Executor_2.Name = "Executor"
+Executor_2.Parent = Back
+Executor_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Executor_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
+Executor_2.Size = UDim2.new(0, 167, 0, 202)
+Executor_2.Visible = false
 
-UICorner_50.Parent = Credit_2
+UICorner_51.Parent = Executor_2
 
 Main_4.Name = "Main"
-Main_4.Parent = Credit_2
+Main_4.Parent = Executor_2
 Main_4.Active = true
 Main_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main_4.BackgroundTransparency = 1.000
@@ -904,8 +940,72 @@ Main_4.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
 Main_4.Size = UDim2.new(0, 158, 0, 185)
 Main_4.ScrollBarThickness = 7
 
+Code.Name = "Code"
+Code.Parent = Main_4
+Code.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Code.Position = UDim2.new(0.0253164582, 0, 0.0141984746, 0)
+Code.Size = UDim2.new(0.885999978, 0, 0.899999976, 0)
+Code.ClearTextOnFocus = false
+Code.Font = Enum.Font.Code
+Code.MultiLine = true
+Code.Text = "print \"Skizware V3\""
+Code.TextColor3 = Color3.fromRGB(0, 0, 0)
+Code.TextSize = 14.000
+Code.TextWrapped = true
+Code.TextXAlignment = Enum.TextXAlignment.Left
+Code.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_52.CornerRadius = UDim.new(0, 6)
+UICorner_52.Parent = Code
+
+Enlarge.Name = "Enlarge"
+Enlarge.Parent = Main_4
+Enlarge.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Enlarge.BackgroundTransparency = 1.000
+Enlarge.Position = UDim2.new(0.74000001, 0, 0.924000025, 0)
+Enlarge.Size = UDim2.new(0, 30, 0, 30)
+Enlarge.Image = "rbxassetid://247420495"
+
+UICorner_53.CornerRadius = UDim.new(0, 6)
+UICorner_53.Parent = Enlarge
+
+Execute.Name = "Execute"
+Execute.Parent = Main_4
+Execute.Active = false
+Execute.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Execute.Position = UDim2.new(0.0335405171, 0, 0.933168292, 0)
+Execute.Selectable = false
+Execute.Size = UDim2.new(0, 111, 0, 21)
+Execute.AutoButtonColor = false
+Execute.Font = Enum.Font.GothamSemibold
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execute.TextSize = 14.000
+
+UICorner_54.CornerRadius = UDim.new(0, 4)
+UICorner_54.Parent = Execute
+
+Credit_2.Name = "Credit"
+Credit_2.Parent = Back
+Credit_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Credit_2.Position = UDim2.new(0.397959203, 0, 0.0365296789, 0)
+Credit_2.Size = UDim2.new(0, 167, 0, 202)
+Credit_2.Visible = false
+
+UICorner_55.Parent = Credit_2
+
+Main_5.Name = "Main"
+Main_5.Parent = Credit_2
+Main_5.Active = true
+Main_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_5.BackgroundTransparency = 1.000
+Main_5.BorderSizePixel = 0
+Main_5.Position = UDim2.new(0.0538922139, 0, 0.0544554442, 0)
+Main_5.Size = UDim2.new(0, 158, 0, 185)
+Main_5.ScrollBarThickness = 7
+
 Gui.Name = "Gui"
-Gui.Parent = Main_4
+Gui.Parent = Main_5
 Gui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Gui.BackgroundTransparency = 1.000
 Gui.Position = UDim2.new(-0.0379746817, 0, -0.00808134861, 0)
@@ -916,7 +1016,7 @@ Gui.TextColor3 = Color3.fromRGB(0, 0, 0)
 Gui.TextSize = 14.000
 
 Scripting.Name = "Scripting"
-Scripting.Parent = Main_4
+Scripting.Parent = Main_5
 Scripting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Scripting.BackgroundTransparency = 1.000
 Scripting.Position = UDim2.new(-0.062987946, 0, 0.0544554405, 0)
@@ -927,7 +1027,7 @@ Scripting.TextColor3 = Color3.fromRGB(0, 0, 0)
 Scripting.TextSize = 14.000
 
 Note.Name = "Note"
-Note.Parent = Main_4
+Note.Parent = Main_5
 Note.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Note.BackgroundTransparency = 1.000
 Note.Position = UDim2.new(0.0253164601, 0, 0.854582608, 0)
@@ -938,9 +1038,131 @@ Note.TextColor3 = Color3.fromRGB(0, 0, 0)
 Note.TextSize = 14.000
 Note.TextWrapped = true
 
+ExternalExecutor.Name = "ExternalExecutor"
+ExternalExecutor.Parent = SkizwareV3
+ExternalExecutor.AnchorPoint = Vector2.new(0.5, 0.5)
+ExternalExecutor.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+ExternalExecutor.Position = UDim2.new(0.5, 0, 0.5, 0)
+ExternalExecutor.Size = UDim2.new(0, 343, 0, 21)
+ExternalExecutor.Visible = false
+ExternalExecutor.ZIndex = 3
+
+Internal.Name = "Internal"
+Internal.Parent = ExternalExecutor
+Internal.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Internal.Position = UDim2.new(0, 0, 0.115891233, 0)
+Internal.Size = UDim2.new(1.00000012, 0, 0, 264)
+
+UICorner_56.CornerRadius = UDim.new(0, 3)
+UICorner_56.Parent = Internal
+
+Main_6.Name = "Main"
+Main_6.Parent = Internal
+Main_6.Active = true
+Main_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main_6.BackgroundTransparency = 1.000
+Main_6.BorderSizePixel = 0
+Main_6.Position = UDim2.new(0, 0, 0.071221441, 0)
+Main_6.Size = UDim2.new(0, 343, 0, 245)
+Main_6.BottomImage = ""
+Main_6.CanvasSize = UDim2.new(0, 0, 4, 0)
+Main_6.MidImage = "rbxassetid://154987705"
+Main_6.ScrollBarThickness = 8
+Main_6.TopImage = "rbxassetid://154987705"
+
+LinesExternal.Name = "LinesExternal"
+LinesExternal.Parent = Main_6
+LinesExternal.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+LinesExternal.BorderSizePixel = 0
+LinesExternal.Size = UDim2.new(0, 24, 1, 0)
+LinesExternal.Font = Enum.Font.GothamSemibold
+LinesExternal.Text = ""
+LinesExternal.TextColor3 = Color3.fromRGB(0, 0, 0)
+LinesExternal.TextSize = 14.000
+LinesExternal.TextYAlignment = Enum.TextYAlignment.Top
+
+LinesInternal.Name = "LinesInternal"
+LinesInternal.Parent = LinesExternal
+LinesInternal.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+LinesInternal.BackgroundTransparency = 1.000
+LinesInternal.BorderSizePixel = 0
+LinesInternal.Position = UDim2.new(0, 0, 0.0073520774, 0)
+LinesInternal.Size = UDim2.new(1, 0, 0.992648065, 0)
+LinesInternal.ZIndex = 2
+LinesInternal.Font = Enum.Font.Code
+LinesInternal.Text = "1"
+LinesInternal.TextColor3 = Color3.fromRGB(0, 0, 0)
+LinesInternal.TextSize = 14.000
+LinesInternal.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_57.CornerRadius = UDim.new(0, 3)
+UICorner_57.Parent = LinesExternal
+
+Execute_2.Name = "Execute"
+Execute_2.Parent = Main_6
+Execute_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Execute_2.BorderSizePixel = 0
+Execute_2.Position = UDim2.new(0.110787176, 0, 0.960303366, 0)
+Execute_2.Size = UDim2.new(0.383332282, 0, 0.0303212814, 0)
+Execute_2.AutoButtonColor = false
+Execute_2.Font = Enum.Font.GothamSemibold
+Execute_2.Text = "Execute"
+Execute_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Execute_2.TextSize = 14.000
+
+UICorner_58.CornerRadius = UDim.new(0, 3)
+UICorner_58.Parent = Execute_2
+
+Clear.Name = "Clear"
+Clear.Parent = Main_6
+Clear.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.544915378, 0, 0.960090935, 0)
+Clear.Size = UDim2.new(0.382999986, 0, 0.0299999993, 0)
+Clear.AutoButtonColor = false
+Clear.Font = Enum.Font.GothamSemibold
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(0, 0, 0)
+Clear.TextSize = 14.000
+
+UICorner_59.CornerRadius = UDim.new(0, 3)
+UICorner_59.Parent = Clear
+
+Code_2.Name = "Code"
+Code_2.Parent = Main_6
+Code_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Code_2.BackgroundTransparency = 1.000
+Code_2.BorderSizePixel = 0
+Code_2.Position = UDim2.new(0.0845481083, 0, 0.00679149944, 0)
+Code_2.Size = UDim2.new(0.876999974, 0, 0.930000007, 0)
+Code_2.ClearTextOnFocus = false
+Code_2.Font = Enum.Font.Code
+Code_2.MultiLine = true
+Code_2.Text = ""
+Code_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Code_2.TextSize = 14.000
+Code_2.TextWrapped = true
+Code_2.TextXAlignment = Enum.TextXAlignment.Left
+Code_2.TextYAlignment = Enum.TextYAlignment.Top
+
+UICorner_60.CornerRadius = UDim.new(0, 3)
+UICorner_60.Parent = ExternalExecutor
+
+Close.Name = "Close"
+Close.Parent = ExternalExecutor
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.949999988, 0, 0.189999998, 0)
+Close.Size = UDim2.new(0, 13, 0, 13)
+Close.ZIndex = 4
+Close.Font = Enum.Font.Code
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 17.000
+
 -- Scripts:
 
-local function WFKH_fake_script() -- SkizwareV3.Drag 
+local function CTIMQU_fake_script() -- SkizwareV3.Drag 
 	local script = Instance.new('LocalScript', SkizwareV3)
 
 	local UIS = game:GetService('UserInputService')
@@ -976,8 +1198,8 @@ local function WFKH_fake_script() -- SkizwareV3.Drag
 		end
 	end)
 end
-coroutine.wrap(WFKH_fake_script)()
-local function ZMUPO_fake_script() -- Main.LocalScript 
+coroutine.wrap(CTIMQU_fake_script)()
+local function BDKNVP_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local e = script.Parent
@@ -1291,8 +1513,8 @@ local function ZMUPO_fake_script() -- Main.LocalScript
 	
 	
 end
-coroutine.wrap(ZMUPO_fake_script)()
-local function FSDSFUO_fake_script() -- InternalSideBar.LocalScript 
+coroutine.wrap(BDKNVP_fake_script)()
+local function IYCN_fake_script() -- InternalSideBar.LocalScript 
 	local script = Instance.new('LocalScript', InternalSideBar)
 
 	local p = script.Parent.Parent.Parent
@@ -1303,13 +1525,14 @@ local function FSDSFUO_fake_script() -- InternalSideBar.LocalScript
 				p.Home.Visible = false
 				p.Scripts.Visible = false
 				p.Music.Visible = false
+				p.Executor.Visible = false
 				p[v.Name].Visible = true
 			end)
 		end
 	end
 end
-coroutine.wrap(FSDSFUO_fake_script)()
-local function EVNOAUO_fake_script() -- Back.RippleScript 
+coroutine.wrap(IYCN_fake_script)()
+local function SOYYRBE_fake_script() -- Back.RippleScript 
 	local script = Instance.new('LocalScript', Back)
 
 	local ms = game.Players.LocalPlayer:GetMouse()
@@ -1319,16 +1542,18 @@ local function EVNOAUO_fake_script() -- Back.RippleScript
 		script.Parent.Home.Main,
 		script.Parent.Music.Main,
 		script.Parent.Credit.Main,
-		script.Parent.Scripts.Main
+		script.Parent.Scripts.Main,
+		script.Parent.Executor.Main
 	}
 	
 	for i,v in pairs(scrolls)do
 		v.ScrollBarImageColor3 = Color3.fromRGB(65,65,65)
 	end
 	
-	for i,v in pairs(script.Parent:GetDescendants())do
+	for i,v in pairs(script.Parent.Parent:GetDescendants())do
 		if v:IsA("TextButton")then
 			v.ClipsDescendants = true
+			v.AutoButtonColor = false
 			v.MouseButton1Down:Connect(function()
 				local c = ripple:Clone()
 				c.Parent = v
@@ -1350,8 +1575,8 @@ local function EVNOAUO_fake_script() -- Back.RippleScript
 		end
 	end
 end
-coroutine.wrap(EVNOAUO_fake_script)()
-local function YTBE_fake_script() -- Avatar.LocalScript 
+coroutine.wrap(SOYYRBE_fake_script)()
+local function IFRVN_fake_script() -- Avatar.LocalScript 
 	local script = Instance.new('LocalScript', Avatar)
 
 	script.Parent.Parent.Welcome.Text = "Welcome, " ..game.Players.LocalPlayer.Name.. " to Skizware V3"
@@ -1361,8 +1586,8 @@ local function YTBE_fake_script() -- Avatar.LocalScript
 	local content, isReady = game:GetService("Players"):GetUserThumbnailAsync(me, thumbType, thumbSize)
 	script.Parent.Image = content
 end
-coroutine.wrap(YTBE_fake_script)()
-local function LZER_fake_script() -- HandyScriptsInternal.LocalScript 
+coroutine.wrap(IFRVN_fake_script)()
+local function WGRJGI_fake_script() -- HandyScriptsInternal.LocalScript 
 	local script = Instance.new('LocalScript', HandyScriptsInternal)
 
 	local jump = script.Parent.JumpPower
@@ -1392,7 +1617,7 @@ local function LZER_fake_script() -- HandyScriptsInternal.LocalScript
 		end
 	end)
 	leave.MouseButton1Down:Connect(function()
-		game:Shutdown()
+		player:Kick("You executed leave!")
 	end)
 	rejoin.MouseButton1Down:Connect(function()
 		tpservice:Teleport(game.PlaceId, player)
@@ -1412,8 +1637,8 @@ local function LZER_fake_script() -- HandyScriptsInternal.LocalScript
 		player.Character:Destroy()
 	end)
 end
-coroutine.wrap(LZER_fake_script)()
-local function WRNFYNP_fake_script() -- Main_3.LocalScript 
+coroutine.wrap(WGRJGI_fake_script)()
+local function WHFB_fake_script() -- Main_3.LocalScript 
 	local script = Instance.new('LocalScript', Main_3)
 
 	local music = Instance.new("Sound", game:GetService("Workspace"))
@@ -1453,8 +1678,8 @@ local function WRNFYNP_fake_script() -- Main_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(WRNFYNP_fake_script)()
-local function VHDJG_fake_script() -- Launch.LocalScript 
+coroutine.wrap(WHFB_fake_script)()
+local function OTDO_fake_script() -- Launch.LocalScript 
 	local script = Instance.new('LocalScript', Launch)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -1479,12 +1704,91 @@ local function VHDJG_fake_script() -- Launch.LocalScript
 		script.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(VHDJG_fake_script)()
-local function UZZO_fake_script() -- NoThanks.LocalScript 
+coroutine.wrap(OTDO_fake_script)()
+local function AJSIZ_fake_script() -- NoThanks.LocalScript 
 	local script = Instance.new('LocalScript', NoThanks)
 
 	script.Parent.MouseButton1Down:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(UZZO_fake_script)()
+coroutine.wrap(AJSIZ_fake_script)()
+local function FHIVC_fake_script() -- Main_4.LocalScript 
+	local script = Instance.new('LocalScript', Main_4)
+
+	script.Parent.Execute.MouseButton1Down:Connect(function()
+		loadstring(script.Parent.Code.Text)()
+	end)
+	script.Parent.Enlarge.MouseButton1Down:Connect(function()
+		script:FindFirstAncestor("SkizwareV3").ExternalExecutor.Visible = true
+	end)
+end
+coroutine.wrap(FHIVC_fake_script)()
+local function NXFH_fake_script() -- Main_6.LocalScript 
+	local script = Instance.new('LocalScript', Main_6)
+
+	script.Parent.Execute.MouseButton1Down:Connect(function()
+		loadstring(script.Parent.Code.Text)()
+	end)
+	script.Parent.Clear.MouseButton1Down:Connect(function()
+		script.Parent.Code.Text = ""
+	end)
+	script.Parent.Parent.Parent.Close.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	local Code = script.Parent.Code
+	local lines = script.Parent.LinesExternal.LinesInternal
+	script.Parent.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+	script.Parent.ScrollBarImageTransparency = .7
+	
+	script.Parent.Code.Changed:Connect(function()
+		local lin = 1
+		Code.Text:gsub("\n", function()
+			lin = lin + 1
+		end)
+		lines.Text = ""
+		for i = 1, lin do
+			lines.Text = lines.Text .. i .. "\n"
+		end
+	end)
+	
+	
+end
+coroutine.wrap(NXFH_fake_script)()
+local function VDRY_fake_script() -- ExternalExecutor.Drag 
+	local script = Instance.new('LocalScript', ExternalExecutor)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.1
+	local dragStart = nil
+	local startPos = nil
+	--Gui Drag
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(VDRY_fake_script)()
