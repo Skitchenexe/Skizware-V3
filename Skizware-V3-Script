@@ -1617,7 +1617,7 @@ local function WGRJGI_fake_script() -- HandyScriptsInternal.LocalScript
 		end
 	end)
 	leave.MouseButton1Down:Connect(function()
-		player:Kick("You executed leave!")
+		game:shutdown()
 	end)
 	rejoin.MouseButton1Down:Connect(function()
 		tpservice:Teleport(game.PlaceId, player)
